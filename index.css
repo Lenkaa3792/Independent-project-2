@@ -1,4 +1,21 @@
 .nav{
-    float: right;
-    display: flex;
+    
+   display: flex;
+
+}
+.nav ul{
+    
+
+}
+.nav ul li{
+    display: inline-block;
+    margin: 60px;;
+}
+.p1{
+    color: yellow;
+    margin: 80px;
+}
+.p2{
+    color: gray;
+    margin: 80px;
 }
