@@ -19,3 +19,15 @@
     color: gray;
     margin: 80px;
 }
+.image1{
+    size: 20px;
+}
+.div1{
+    float:right;   
+    float: right 90px; 
+ margin: 0 0 70px 15px;
+ margin-right: 90px;
+ margin-inline: 79px;
+ 
+}
+
