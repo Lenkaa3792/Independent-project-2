@@ -23,11 +23,13 @@
     size: 20px;
 }
 .div1{
-    float:right;   
-    float: right 90px; 
- margin: 0 0 70px 15px;
- margin-right: 90px;
- margin-inline: 79px;
- 
+    float:right;    
+ margin: 0 0 0 15px;
 }
 
+h3{
+    margin: 60px;
+}
+.movers{
+    background-color: gainsboro;
+}
