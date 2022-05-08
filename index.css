@@ -23,8 +23,12 @@
     size: 20px;
 }
 .div1{
-    float:right;    
- margin: 0 0 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.image-div{
+    width: 40%;
+    padding-right: 5%;
 }
 
 h3{
@@ -35,6 +39,7 @@ h3{
 }
 .tapbuton{
     background-color: black;
+    margin: 50px;
 }
 .pbutton{
     color: orange;
