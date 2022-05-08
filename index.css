@@ -4,7 +4,7 @@
     font-family: 'Poppins';
     box-sizing: border-box;
 }
-.sect-1{
+.sect1{
     background-image: url("../asset/moving\ 1.png");
     height: 800px;
     width:auto;
@@ -13,11 +13,11 @@
     background-attachment:fixed;
 
 }
-.sect-1 > .logo >ul{ 
+.sect1 > .logo >ul{ 
     margin-left: 500px;
    
 }
-.sect-1 > .logo > ul > li{
+.sect1 > .logo > ul > li{
     display: inline-block;
     font-size: 25px;
     padding: 15px;
@@ -26,7 +26,7 @@
   
     
 }
-.sect-1 > .logo > ul > a > li{
+.sect1 > .logo > ul > a > li{
     display: inline-block;
     font-size: 25px;
     padding: 15px;
@@ -34,7 +34,7 @@
     margin-top: 30px;
 
 }
-.sect-1 > .logo > ul > a > li > .btn-signup{
+.sect1 > .logo > ul > a > li > .btn-signup{
     background-color: #FAFF00;
     font-size: 15px;
     padding: 10px;
@@ -44,7 +44,7 @@
 
 }
 
-.sect-1 > .logo > ul > a > li > .btn-login{
+.sect1 > .logo > ul > a > li > .btn-login{
     background-color:black;
     font-size: 15px;
     padding: 16px 32px;
@@ -54,14 +54,14 @@
 
 }
 
-.sect-1 > .logo > ul > li > .button > .btn-signup{
+.sect1 > .logo > ul > li > .button > .btn-signup{
     font-size: 20px;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
     
 }
-.sect-1 > .sect1-content > h1{
+.sect1 > .sect1content > h1{
     font-size: 50px;
     margin-left: 100px;
     margin-top: 90px;
@@ -71,7 +71,7 @@
     
 
 }
-.sect-1 > .sect1-content > p{
+.sect1 > .sect1content > p{
     font-size: 30px;
     margin-left: 100px;
     margin-top: 50px;
@@ -231,6 +231,9 @@
     
     
 }
+ul{
+    list-style-type: none;
+}
 .card-stats .border-1{
 border-top: 1px solid rgba(0,0,0,0.9);
 width:auto;
@@ -295,3 +298,6 @@ width:auto;
     color: white;
 
 }
+
+
+
