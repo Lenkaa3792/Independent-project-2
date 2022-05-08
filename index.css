@@ -37,10 +37,14 @@ h3{
 .movers{
     background-color: gainsboro;
 }
-.tapbuton{
-    background-color: black;
-    margin: 50px;
-}
+
+
 .pbutton{
     color: orange;
+}
+.tapbutton{
+    display: grid;
+    display: flex;
+    display: flexbox;
+   
 }
