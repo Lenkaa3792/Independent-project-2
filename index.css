@@ -1,166 +1,296 @@
-.container{
-    background: url(./asset/moving\ 1.png);
-    background-position:center;
+*{
+    margin: o;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.sect-1{
+    background-image: url("../asset/moving\ 1.png");
+    height: 800px;
+    width:auto;
     background-size: cover;
-    width: 550px;
-    height: 550px;
-    
+    background-position: center;
+    background-attachment:fixed;
 
 }
-nav{
-    width: 100%;
-    line-height: 60%;
-
-
+.sect-1 > .logo >ul{ 
+    margin-left: 500px;
+   
 }
-nav ul{
-    text-align: center;
-    padding-right: 100px;
-    margin-left: 50px;
-
-}
-nav ul li{
+.sect-1 > .logo > ul > li{
     display: inline-block;
-    padding-top: 50px;
-    padding-left: 60px;
-    font-size: medium;
-    margin-right: 60px;
-}
-nav ul li a{
+    font-size: 25px;
+    padding: 15px;
     color: white;
-    padding: 50px;
-}
-nav ul li button{
-    width: 60px;
-    height: 60px;
-    border: none;
-    padding-left: 60px;
-
-}
-nav ul li .button1{
-    background-color: #ffac12;
-}
-nav ul li .button2{
-    background-color: black;
-}
-.section2 .hustleparag{
-    display: flex;
-    width: 100%;
-    padding-top: 55px;
-    padding-bottom: 105px;
-
-
-}
-.section2 .hustleparag .container1{
-    float: left;
+    margin-top: 30px;
+  
     
-} 
-.section2 .hustleparag .container1 img{
-    width: 500px;
-    height: 400px;
 }
-.section2 .hustleparag .hustle{
-    margin-top: 100px;
-    margin-right: 100px;
-    padding-left: 100px;
+.sect-1 > .logo > ul > a > li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    margin-top: 30px;
 
 }
-.section2 .hustleparag .hustle h1{
-    font-size: medium;
-    padding-top: 50px;
+.sect-1 > .logo > ul > a > li > .btn-signup{
+    background-color: #FAFF00;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    margin-top: 30px;
+    border-radius: 6px;
 
 }
 
-.h1p{
+.sect-1 > .logo > ul > a > li > .btn-login{
+    background-color:black;
+    font-size: 15px;
+    padding: 16px 32px;
+    color:#FAFF00;
+    margin-top: 30px;
+    border-radius: 6px;
+
+}
+
+.sect-1 > .logo > ul > li > .button > .btn-signup{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.sect-1 > .sect1-content > h1{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 90px;
     color: #FAFF00;
-}
-.p1{
-    color: grey;
-}
-.container1{
-    position: relative;
-    font-size: 40px;
-    font-size: 34px;
-    padding-top: 10px;
-
-}
-.container2{
-    display: flex;
-    display: block;
-    size: 100px;
-}
-.h31{
-
-}
-.b1{
-    color:#ffac12;
-}
-.footer1{
-    text-decoration-color: white;
-    width: 97%;
-    height:fit-content;
-    background-color: black;
-    text-align: center;
-    text-emphasis-color: white;
-    margin-top: -40px;
-}
-.columns{
-    display: flex;
-    padding-left: 400px;
-}
-.column1{
-    display: grid;
-    text-decoration: none;
-    margin: 20px;
+    font-family: 'Poppins';
+  
     
-    }
-.column2{
-        display: grid;
-        text-decoration: none;
-        margin: 20px;
-        position: relative;
-        
-        
-    }
-.column3{
-        display: grid;
-        text-decoration: none;
-        margin: 20px;
-    }
-.column1 a{
-    margin: 5px;
-    color: whitesmoke;
-    text-decoration: none;
+
 }
-.column2 a{
-    margin: 5px;
-    color: whitesmoke;
-    text-decoration: none;
+.sect-1 > .sect1-content > p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 400;
+
 }
-.column3 a{
-    margin: 5px;
-    color: whitesmoke;
-    text-decoration: none;
+.sect-2 {
+    display: flex;
+    margin-top: 40px;
+    
 }
-.footer1h2{
-    color: whitesmoke;
-    padding-right: 400px;
-    padding-top: 100px;
-    font-size: xx-large;
+
+.sect-2 > .Hustle {
+    margin: 40px;
+    
 }
-.footer1 hr{
-    position: relative;
-    padding-right: 60px;
-    top: 20px;
-    border: none;
-    height: 0.1px;
-    width: 80%;
-    background:wheat;
+
+.sect-2 > .Hustle h1{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sect-2 > .Hustle p{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 100;
     margin-bottom: 50px;
+
 }
-.footer1 h2{
-    color: whitesmoke;
+.sect-2 > .Hustle button{
+    padding: 10px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: #FAFF00;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    content: "\2192";
 }
-span{
-    color: #ffa600;
+
+.sect-2 > .Hustle span{
+    content: "\2192";
+    justify-content: center;
+    color:#FAFF00;
+    
+}
+
+.line{
+   
+    width: 112px;
+    height: 4px;
+    /* border-bottom: 4px solid black; */
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
+    position:relative
+    }
+
+.card-items{
+    /* height:max-content; */
+    background-color: rgb(220,220,220);
+    justify-content: space-evenly;
+    height: 160vh;
+    margin: 0;
+} 
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    
+}
+
+.card-items > .movers > h1{
+      font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-weight: 200;
+    font-family: 'Poppins';
+    
+    }  
+
+.card-items > .movers > .line-2{
+    width: 112px;
+    height: 40px;
+    border-bottom: 4px solid black;
+    position:relative;
+    margin-left: 100px;
+   
+    }
+
+
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 80px 50px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 24px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: 0.3s;
+    width: 300px;
+    justify-content:space-evenly;
+  
+
+
+   
+    
+}
+.card-img{
+    grid-area: image; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.card-text h1{
+    grid-area: text;
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.card-stats .stat .value{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+
+}
+.card-stats .border{
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+    border-top: 1px solid rgba(0,0,0,0.9);
+    
+    
+}
+.card-stats .border-1{
+border-top: 1px solid rgba(0,0,0,0.9);
+width:auto;
+
+    
+    
+}
+
+.footer{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
+    
+    
+}
+.footer > .footer-head{
+    margin: 0;
+    padding: 0;
+   
+}
+.footer > .footer-head h1{
+    font-size: 30px;
+    color: white;
+    margin: 100px;
+    padding-top: 100px;
+    font-weight: 300;
+}
+.footer > .footer-head span{
+    color: #FAFF00;
+    
+}
+.footer > .social > .icon-links {
+    margin-left: 100px;
+    color: white;
+    
+   
+}
+.footer > .social > .icon-links a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+.footer  .social{
+    display: flex;
+
+}
+.footer > .social> .heading {
+    margin-left: 250px;
+    
+
+}
+.footer > .social> .heading h1{
+    font-size: 18px;
+    color: white;
+    
+
+}
+.footer > .social> .heading li{
+    font-size: 18px;
+    color: white;
+
 }
