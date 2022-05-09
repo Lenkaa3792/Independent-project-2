@@ -1,5 +1,5 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     font-family: 'Poppins';
     box-sizing: border-box;
@@ -11,7 +11,6 @@
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
-
 }
 .sect1 > .logo >ul{ 
     margin-left: 500px;
