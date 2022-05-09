@@ -41,17 +41,20 @@
   }
   
   a {
+    
     text-decoration: none;
     color: #fff;
   }
   
   a:hover {
+      height: 0%;
     text-decoration: none;
     color: #ffac12;
   }
   
   /* *********** Button Settings *********** */
   .btn {
+      
     border: 0;
     outline: none;
     cursor: pointer;
